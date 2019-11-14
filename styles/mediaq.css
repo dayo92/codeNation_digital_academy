@@ -1,0 +1,151 @@
+@media only screen and (max-width: 981px){
+    
+}
+
+@media only screen and (max-width: 980px){
+
+    
+    .section-2-content  {
+        width: 100%;
+        /* float: left; */
+        display: flex;
+        flex-direction: column;
+    }
+    .section-2-content .sectoin-2-text{
+        width: 100%;
+    }
+
+    .sectoin-2-text p:first-child{
+        padding-bottom: 25px;
+    }
+
+    .image-wrap{
+        padding-top: 60px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 70%;
+    }
+
+
+    /*****************SECTION-4********************/
+
+    .row-wrapper{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .row-wrapper .first-columm {
+        /* float: left; */
+        width: 100%;
+        margin-right: 35px;
+    }
+    
+    
+    .row-wrapper .second-columm{
+      width: 100%;
+      
+    }
+
+    .row{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    /****************SECTION-5**********************/
+
+
+    .section-top-content{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .section-top-content .section-top-image{ 
+          width: 100%;
+      }
+
+
+      .section-top-content .section-top-text{
+        /* float: right; */
+        
+        width: 100%;
+        margin: 0;
+      
+    }
+
+
+    .section-btm-content{
+        width: 80%;
+        margin: 0 10%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section-btm-image {
+        float: right;
+        width: 100%;
+        /* transform: scaleX(-1); */
+       
+    }
+
+    .btm-text-content .btm-text{
+        width: 100%;
+    }
+
+    /* *************SECTION-6************* */
+
+    .section-6-content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    /* **********SECTION-4******** */
+    .row .span-1-of-4{
+        width: 31.8%;
+    }
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		/*margin: 1% 0 1% 0%;*/
+        margin: 0;
+	}
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+
+    .row{
+        max-width: 1140px;
+        margin:0 auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+	.span-4-of-4 {
+		width: 100%; 
+	}
+	.span-3-of-4 {
+		width: 100%; 
+	}
+	.span-2-of-4 {
+		width: 100%; 
+	}
+	.span-1-of-4 {
+		width: 100%; 
+	}
+}
+
