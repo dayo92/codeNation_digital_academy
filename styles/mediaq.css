@@ -97,9 +97,45 @@
     /* *************SECTION-6************* */
 
     .section-6-content{
-        display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
+       align-items: center;
+       flex-direction: column !important;
     }
+
+    .sec-6{
+        width:80%;
+    }
+    .section-6-text{
+        width: 80%;
+        margin: 0;
+    }
+
+     /* *************SECTION-7************* */
+
+     .section-7-images{
+         flex-wrap: wrap;
+         padding-top: 0;
+        
+     }
+     .img-box{
+         width: 50%;
+     }
+
+     /* *************SECTION-8************* */
+
+
+     .section-8-content{
+         flex-direction: column;
+     }
+
+     .responsive-map{
+         width: 100%;
+         padding: 0;
+         height: 500px;
+         
+     }
+
+
 }
 
 @media only screen and (max-width: 768px){
